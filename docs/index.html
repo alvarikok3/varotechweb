@@ -1,91 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VAROTECH</title>
+  <!-- Íconos de FontAwesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f2f2f2;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    header {
-      background-color: #1e1e2f;
-      color: #fff;
-      padding: 1.5rem;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 2rem auto;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
       padding: 2rem;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      color: #222;
     }
 
     h1 {
-      color: #e91e63;
+      color: #000;
     }
 
-    p {
-      line-height: 1.6;
-      font-size: 1.1rem;
+    .descripcion {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
     }
 
-    ul {
+    .servicios {
       list-style: none;
       padding: 0;
     }
 
-    ul li {
-      margin: 1rem 0;
+    .servicios li {
+      margin-bottom: 1rem;
       font-size: 1.1rem;
     }
 
-    ul li::before {
-      content: "🔧 ";
-      margin-right: 8px;
+    .frase {
+      font-style: italic;
+      margin-top: 2rem;
     }
 
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #1e1e2f;
-      color: #ccc;
-      font-size: 0.9rem;
+    .redes {
+      margin-top: 3rem;
+    }
+
+    .redes a {
+      margin-right: 15px;
+      font-size: 1.8rem;
+      color: #333;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .redes a:hover {
+      color: #007bff;
     }
   </style>
 </head>
 <body>
+  <h1>VAROTECH</h1>
+  <p class="descripcion">
+    Soy Álvaro, estudiante de Ingeniería en Sistemas con enfoque en desarrollo web, diseño visual y análisis de datos.
+  </p>
 
-  <header>
-    <h1>VAROTECH</h1>
-    <p>Soluciones tecnológicas simples para tu día a día</p>
-  </header>
+  <ul class="servicios">
+    <li>💻 Cuidamos tus dispositivos como si fueran nuestros.</li>
+    <li>🧼 Mantené tu equipo en forma, sin moverte de casa.</li>
+    <li>🚀 Tu tecnología sin complicaciones.</li>
+  </ul>
 
-  <div class="container">
-    <p>Hola, soy Álvaro, estudiante de Ingeniería en Sistemas con enfoque en desarrollo web, diseño visual y análisis de datos.</p>
+  <p class="frase">"No esperés a ser experto para empezar. Empezá para llegar a serlo."</p>
 
-    <ul>
-      <li>💻 Cuidamos tus dispositivos como si fueran nuestros.</li>
-      <li>🧼 Mantené tu equipo en forma, sin moverte de casa.</li>
-      <li>🚀 Tu tecnología sin complicaciones.</li>
-    </ul>
-
-    <blockquote>
-      “No esperés a ser experto para empezar. Empezá para llegar a serlo.”
-    </blockquote>
+  <div class="redes">
+    <a href="https://wa.me/50672006576" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/varotechcr" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/varotechcr" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@varotechcr" target="_blank" title="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="mailto:alvaromg602@gmail.com" title="Correo">
+      <i class="fas fa-envelope"></i>
+    </a>
   </div>
-
-  <footer>
-    &copy; 2025 VAROTECH | Sitio web creado por Álvaro Monge
-  </footer>
-
 </body>
 </html>
