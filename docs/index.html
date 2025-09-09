@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Varotech - Álvaro Monge</title>
+
+  <!-- Íconos Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -29,6 +33,7 @@
       padding: 30px 20px;
       max-width: 900px;
       margin: auto;
+      text-align: center;
     }
 
     main h2 {
@@ -44,6 +49,7 @@
     .quote {
       font-style: italic;
       margin-top: 25px;
+      color: #555;
     }
 
     .button {
@@ -70,25 +76,43 @@
       color: #fff;
     }
 
+    /* Redes sociales con estilo de burbuja */
     .social-icons {
-      margin-top: 10px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
     }
 
     .social-icons a {
-      margin: 0 10px;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
       text-decoration: none;
-      font-size: 1.8em;
-      color: white;
-      transition: transform 0.2s;
     }
 
     .social-icons a:hover {
       transform: scale(1.2);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
-  </style>
 
-  <!-- Íconos de redes -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    .social-icons .whatsapp { background-color: #25D366; }
+    .social-icons .linkedin { background-color: #0077B5; }
+    .social-icons .github   { background-color: #333; }
+    .social-icons .correo   { background-color: #D44638; }
+    .social-icons .facebook { background-color: #1877F2; }
+    .social-icons .instagram {
+      background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
+    }
+    .social-icons .tiktok   { background-color: #000; }
+  </style>
 </head>
 <body>
   <header>
@@ -114,12 +138,29 @@
   </main>
 
   <footer>
-    <p>Redes sociales</p>
+    <p style="font-size: 1.2em;">Redes sociales</p>
     <div class="social-icons">
-      <a href="https://www.linkedin.com/in/tuusuario" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/alvarikok3" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="mailto:alvaromg602@gmail.com" title="Correo"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.facebook.com/tuusuario" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/50672006576" class="whatsapp" title="WhatsApp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/tuusuario" class="linkedin" title="LinkedIn" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/alvarikok3" class="github" title="GitHub" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:alvaromg602@gmail.com" class="correo" title="Correo">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.facebook.com/tuusuario" class="facebook" title="Facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/tuusuario" class="instagram" title="Instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@tuusuario" class="tiktok" title="TikTok" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
     </div>
     <p style="margin-top:15px;">© 2025 Álvaro Monge - Varotech</p>
   </footer>
