@@ -3,224 +3,196 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Varotech - Álvaro Monge</title>
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #212529;
-    }
-
-    header {
-      background-color: #111;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.7em;
-    }
-
-    main {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
-
-    main h2 {
-      font-size: 1.6em;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-      line-height: 2em;
-    }
-
-    .quote {
-      font-style: italic;
-      margin-top: 25px;
-      color: #555;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 25px;
-      background-color: #25D366;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-      font-size: 1.1em;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #20b558;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 10px;
-      background-color: #111;
-      color: #fff;
-    }
-
-    .social-icons {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 25px;
-    }
-
-    .social-icons a {
-      text-decoration: none;
-      color: #fff;
-    }
-
-    .social-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 70px;
-    }
-
-    .social-icon-circle {
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      font-size: 24px;
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-
-    .social-icon-circle:hover {
-      transform: scale(1.2);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .social-name {
-      font-size: 0.8em;
-      margin-top: 8px;
-    }
-
-    .whatsapp { background-color: #25D366; }
-    .linkedin { background-color: #0077B5; }
-    .github   { background-color: #333; }
-    .correo   { background-color: #D44638; }
-    .facebook { background-color: #1877F2; }
-    .instagram {
-      background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
-    }
-    .tiktok   { background-color: #000; }
-    .youtube  { background-color: #FF0000; }
-  </style>
+  <title>VaroTech | Soluciones tecnológicas</title>
+  <meta name="description" content="Mantenimiento de computadoras, optimización, limpieza interna y soluciones tecnológicas con VaroTech." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>VAROTECH</h1>
-    <p>Soluciones tecnológicas a tu alcance</p>
-  </header>
 
-  <main>
-    <h2>Hola, soy Álvaro 👨‍💻</h2>
-    <p>Estudiante de Ingeniería en Sistemas con enfoque en desarrollo web, diseño visual y análisis de datos.</p>
+  <!-- HEADER -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <p class="brand-mini">VAROTECH</p>
+      <h1>Soluciones tecnológicas a tu alcance</h1>
+      <p class="hero-text">
+        Mantenimiento, optimización y soporte para computadoras.
+        Atención cercana, clara y profesional.
+      </p>
 
-    <ul>
-      <li>💻 Cuidamos tus dispositivos como si fueran nuestros.</li>
-      <li>🧼 Mantené tu equipo en forma, sin moverte de casa.</li>
-      <li>🚀 Tu tecnología sin complicaciones.</li>
-    </ul>
-
-    <p class="quote">"No esperés a ser experto para empezar. Empezá para llegar a serlo."</p>
-
-    <a class="button" href="https://wa.me/50672006576?text=¡Hola%20Álvaro!%20Vi%20tu%20página%20Varotech%20y%20me%20interesa%20tu%20servicio.%20¿Podemos%20hablar?" target="_blank">
-      📲 Contáctame por WhatsApp
-    </a>
-  </main>
-
-  <footer>
-    <p style="font-size: 1.2em;">Redes sociales</p>
-    <div class="social-icons">
-      <div class="social-item">
-        <a href="https://wa.me/50672006576" target="_blank">
-          <div class="social-icon-circle whatsapp">
-            <i class="fab fa-whatsapp"></i>
-          </div>
-          <div class="social-name">WhatsApp</div>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="https://wa.me/50672006576" target="_blank">
+          WhatsApp 72006576
         </a>
-      </div>
-      <div class="social-item">
-        <a href="https://www.linkedin.com/in/álvaro-monge-abb249238" target="_blank">
-          <div class="social-icon-circle linkedin">
-            <i class="fab fa-linkedin-in"></i>
-          </div>
-          <div class="social-name">LinkedIn</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="https://github.com/alvarikok3" target="_blank">
-          <div class="social-icon-circle github">
-            <i class="fab fa-github"></i>
-          </div>
-          <div class="social-name">GitHub</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="mailto:alvaromg602@gmail.com">
-          <div class="social-icon-circle correo">
-            <i class="fas fa-envelope"></i>
-          </div>
-          <div class="social-name">Correo</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="https://www.facebook.com/yosoyvarotech" target="_blank">
-          <div class="social-icon-circle facebook">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-          <div class="social-name">Facebook</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="https://www.instagram.com/yosoyvarotech?igsh=MTd4Y2xlMGl2MG55aA%3D%3D&utm_source=qr" target="_blank">
-          <div class="social-icon-circle instagram">
-            <i class="fab fa-instagram"></i>
-          </div>
-          <div class="social-name">Instagram</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="http://www.tiktok.com/@alvarikok3" target="_blank">
-          <div class="social-icon-circle tiktok">
-            <i class="fab fa-tiktok"></i>
-          </div>
-          <div class="social-name">TikTok</div>
-        </a>
-      </div>
-      <div class="social-item">
-        <a href="https://www.youtube.com/@yosoyvarotech" target="_blank">
-          <div class="social-icon-circle youtube">
-            <i class="fab fa-youtube"></i>
-          </div>
-          <div class="social-name">YouTube</div>
+        <a class="btn btn-secondary" href="https://wa.me/50670738223" target="_blank">
+          WhatsApp 70738223
         </a>
       </div>
     </div>
-    <p style="margin-top: 20px;">© 2025 Álvaro Monge - Varotech</p>
+  </header>
+
+  <!-- SOBRE MI -->
+  <section class="about section">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="images/alvaro3.jpg" alt="Foto de Álvaro - VaroTech">
+      </div>
+      <div class="about-text">
+        <h2>Hola, soy Álvaro</h2>
+        <p>
+          Soy estudiante de Ingeniería en Sistemas y me enfoco en brindar apoyo tecnológico
+          práctico, claro y útil para personas que necesitan que su computadora vuelva a rendir bien.
+        </p>
+        <p>
+          En VaroTech trabajo con una idea simple: ayudarte a resolver problemas tecnológicos
+          sin complicaciones innecesarias.
+        </p>
+
+        <ul class="about-list">
+          <li>Cuidado de equipos con atención detallada</li>
+          <li>Mejora de rendimiento y limpieza</li>
+          <li>Atención directa por WhatsApp</li>
+          <li>Servicio orientado a hogares, estudiantes y trabajo diario</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services section dark-section">
+    <div class="container">
+      <h2 class="section-title">Servicios</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Limpieza interna y externa</h3>
+          <p>
+            Eliminación de polvo, revisión visual y mantenimiento básico para mejorar el estado del equipo.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Optimización de rendimiento</h3>
+          <p>
+            Ajustes para que tu computadora arranque mejor y funcione de forma más fluida.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Eliminación de archivos basura</h3>
+          <p>
+            Limpieza de archivos innecesarios para liberar espacio y mejorar el funcionamiento general.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Asesoría tecnológica</h3>
+          <p>
+            Apoyo para dudas sobre computadoras, software, mantenimiento y mejoras básicas.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOCION -->
+  <section class="promo section">
+    <div class="container promo-grid">
+      <div class="promo-text">
+        <span class="tag">Precio de lanzamiento</span>
+        <h2>₡10.000</h2>
+        <p>
+          Si tu compu va lenta, puedo ayudarte a optimizarla y dejarla en mejores condiciones
+          para estudio, trabajo o uso diario.
+        </p>
+
+        <div class="contact-box">
+          <p><strong>WhatsApp:</strong> 72006576</p>
+          <p><strong>WhatsApp:</strong> 70738223</p>
+          <p><strong>SINPE Móvil:</strong> 72006576</p>
+        </div>
+
+        <a class="btn btn-primary" href="https://wa.me/50672006576" target="_blank">
+          Solicitar atención
+        </a>
+      </div>
+
+      <div class="promo-image">
+        <img src="images/flyer1.jpg" alt="Promoción de mantenimiento PC VaroTech">
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video-section section dark-section">
+    <div class="container">
+      <h2 class="section-title">Presentación</h2>
+      <div class="video-wrapper">
+        <video controls playsinline>
+          <source src="images/promo-video.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="gallery section">
+    <div class="container">
+      <h2 class="section-title">VaroTech</h2>
+      <div class="gallery-grid">
+        <img src="images/alvaro1.jpg" alt="Álvaro trabajando en computadora">
+        <img src="images/alvaro2.jpg" alt="Álvaro en oficina">
+        <img src="images/banner1.jpg" alt="Banner de mantenimiento PC">
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIO -->
+  <section class="testimonial section dark-section">
+    <div class="container">
+      <blockquote>
+        “Mi PC volvió a la vida. 100% recomendado.”
+      </blockquote>
+      <p class="testimonial-author">— Cliente feliz</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact section">
+    <div class="container contact-center">
+      <h2>Contacto directo</h2>
+      <p>Escribime para consultar disponibilidad, precio o tipo de servicio.</p>
+
+      <div class="hero-buttons center-buttons">
+        <a class="btn btn-primary" href="https://wa.me/50672006576" target="_blank">
+          72006576
+        </a>
+        <a class="btn btn-secondary" href="https://wa.me/50670738223" target="_blank">
+          70738223
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REDES -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <h3>Redes sociales</h3>
+      <div class="social-links">
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+        <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      </div>
+      <p class="footer-copy">© 2026 VaroTech. Todos los derechos reservados.</p>
+    </div>
   </footer>
+
+  <!-- BOTON FLOTANTE -->
+  <a class="whatsapp-float" href="https://wa.me/50672006576" target="_blank" aria-label="Contactar por WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
