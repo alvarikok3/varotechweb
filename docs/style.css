@@ -50,7 +50,7 @@ a {
 .hero {
   position: relative;
   min-height: 100vh;
-  background: url("images/banner1.jpg") center/cover no-repeat;
+ background: url("images/banner1.jpg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
